@@ -4,6 +4,7 @@ from django.utils import timezone
 from .forms import PostForm
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
 
 def post_list(request):
 	posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
