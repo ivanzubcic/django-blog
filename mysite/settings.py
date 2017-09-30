@@ -25,7 +25,7 @@ SECRET_KEY = 'shbve@b_kuk(%9w$#-*8$)p8vp(1*xm7=72hc%&6f0#1s3#=b)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ivanzub.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ivanzub.pythonanywhere.com']
 
 
 # Application definition
