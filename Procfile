@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: python manage.py migrete; python manage.py runserver
